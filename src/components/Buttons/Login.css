@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(217, 124, 245);
+    font-family: sans-serif;
+ }
+ .Login{
+    width:450px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Login a{
+    margin-right: 350px;
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+.Login h1{
+    color: rgb(49, 64, 199);
+}
+ .Login p{
+    display: inline-block;
+    padding-left: 40px ;
+    margin: 0;
+}
+.Login input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.Email{
+    padding: 20px;
+}
+.pass{
+    padding-bottom: -20px;
+}
+.Email label{
+    margin-right: 210px;
+}
+.pass label{
+    margin-right: 190px;
+}
+
+
+.Login button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(80, 92, 201);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+:hover.Login button {
+    background-color: rgb(49, 64, 199);
+}
