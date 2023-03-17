@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Header.css";
 export default function Header() {
   return (
     <div>
@@ -45,6 +45,11 @@ export default function Header() {
             <div className="button">
               <a href="/login" className="btn btn-outline-dark">
                 <i className="fa fa-sign-in me-2">Login</i>
+              </a>
+            </div>
+            <div className="button">
+              <a href="/Register" className="btn btn-outline-dark">
+                <i className="fa fa-user-plus me-1">Register</i>
               </a>
             </div>
           </div>

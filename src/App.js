@@ -6,6 +6,7 @@ import About from "./components/About";
 import Product from "./components/Product";
 import Contact from "./components/Contact";
 import Login from "./components/Buttons/Login";
+import Register from "./components/Buttons/Register";
 import { Redirect, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/login" component={Login} />
+        <Route exact path="/register" component={Register} />
         <Redirect to="/" />
       </Switch>
       <Footer />

@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(217, 124, 245);
+    font-family: sans-serif;
+ }
+ .Register{
+    width:450px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Register a{
+    margin-right: 350px;
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+.Register h1{
+    color: rgb(49, 64, 199);
+}
+ .Register p{
+    display: inline-block;
+    padding-left: 40px ;
+    margin: 0;
+}
+.Register input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+  
+}
+.Email{
+    padding: 10px;
+}
+.Email label{
+    margin-right: 210px;
+}
+.pass{
+    padding: 10px;
+}
+.pass label{
+    margin-right: 190px;
+}
+.Enterthepassword{
+    padding: 10px;
+
+}
+.Enterthepassword label{
+    margin-right: 110px;
+}
+.Register button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(80, 92, 201);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+:hover.Register button {
+    background-color: rgb(49, 64, 199);
+}
+.Name{
+    padding: 10px;
+}
+.Name Label{
+    margin-right: 150px;
+}
+button {
+    margin-top: 20px;
+}
