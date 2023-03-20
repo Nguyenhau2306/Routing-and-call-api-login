@@ -7,7 +7,6 @@ export default function About() {
         <div className="row">
           <div className="col-md-6">
             <h1 className="text-primary fw-bold mb-4">
-              {" "}
               Hello, well come to about page!
             </h1>
             <p className="lead mb-4">

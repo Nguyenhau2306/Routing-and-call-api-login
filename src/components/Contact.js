@@ -53,7 +53,7 @@ export default function Contact() {
                   rows="5"
                 ></textarea>
               </div>
-              <button type="submit" className="btn btn-outline-primary">
+              <button onclick type="submit" className="btn btn-outline-primary">
                 sent
               </button>
             </form>

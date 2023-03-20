@@ -22,7 +22,7 @@ export default function Header() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
+                <a class="nav-link active" aria-current="page" href="/home">
                   Home
                 </a>
               </li>
@@ -44,12 +44,17 @@ export default function Header() {
             </ul>
             <div className="button">
               <a href="/login" className="btn btn-outline-dark">
-                <i className="fa fa-sign-in me-2">Login</i>
+                <i class="fa fa-sign-in me-2">Login</i>
               </a>
             </div>
             <div className="button">
-              <a href="/Register" className="btn btn-outline-dark">
-                <i className="fa fa-user-plus me-1">Register</i>
+              <a href="/register" className="btn btn-outline-dark">
+                <i class="fa fa-address-card-o me-2">Register</i>
+              </a>
+            </div>
+            <div className="button">
+              <a href="/cart" className="btn btn-outline-dark">
+                <i class="fa fa-cart-plus me-2">Cart</i>
               </a>
             </div>
           </div>

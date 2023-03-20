@@ -7,6 +7,7 @@ import Product from "./components/Product";
 import Contact from "./components/Contact";
 import Login from "./components/Buttons/Login";
 import Register from "./components/Buttons/Register";
+import Cart from "./components/Buttons/Cart";
 import { Redirect, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
+        <Route exact path="/cart" component={Cart} />
         <Redirect to="/" />
       </Switch>
       <Footer />
